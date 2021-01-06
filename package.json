@@ -1,0 +1,17 @@
+{
+  "name": "Nezuko",
+  "version": "1.0.0",
+  "description": "Bot for friends",
+  "main": "index.js",
+  "scripts": {
+    "test": ".help"
+  },
+  "keywords": [
+    "RP"
+  ],
+  "author": "Guillaume ROUSSIN",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^12.2.0"
+  }
+}
