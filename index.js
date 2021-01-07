@@ -59,7 +59,7 @@ bot.on('message', async msg => {
 
     // Execute command
     try {
-        command.execute(msg, args, db);
+        command.execute(msg, args);
     } catch (error) {
         console.error(error);
         msg.channel.send('On dirait que ca n\'a pas marché ...');

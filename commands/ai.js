@@ -8,7 +8,7 @@ module.exports = {
     desc: 'rends nezuko sentiente',
 }
 
-module.exports.execute = async (msg, args, db) => {
+module.exports.execute = async (msg, args) => {
     if(msg.channel.type != 'dm' || msg.author.id != LAURENT_ID) return;
 
     const guild = msg.client.guilds.cache.get(GUILD_ID);
